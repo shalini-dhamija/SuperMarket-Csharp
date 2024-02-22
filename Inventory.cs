@@ -45,7 +45,7 @@ public class Inventory
             else
             {
                 orderList.Remove(orderItem.Key);
-                Console.WriteLine($"Sorry we don't sell {orderItem.Key}, this hs been removed from basket.");
+                Console.WriteLine($"Sorry we don't sell {orderItem.Key}, this has been removed from basket.");
             }
         }        
     }

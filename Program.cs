@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 SuperMarket mySuperMarket = new SuperMarket();
 
 Console.WriteLine("Are you a customer or an employee?");
@@ -138,7 +140,7 @@ class SuperMarket
 {
     private Inventory _myInventory = new Inventory(); 
     private Order _myOrder = new Order();
-
+    
     public void AddItemsToInventory(string itemName, int quantity, decimal price)
     {
         Item item = new Item{ItemName=itemName, Price=price};
